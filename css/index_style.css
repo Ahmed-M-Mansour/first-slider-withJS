@@ -1,0 +1,52 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item
+{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.item-caption
+{
+   color: #333;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 30px; 
+    width: 80%; 
+    left: 10%;
+}
+
+.box-container
+{
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, .555);
+    display: none;
+
+}
+.box-container .box 
+{
+    width: 50%; 
+    height: 50%; 
+    background-size: 100% 100% ;
+    position: relative;
+   
+}
+
+.box-container .box  i 
+{
+    cursor: pointer;
+}
+
+#close
+{
+    position: absolute; 
+    top: 10px;
+    right: 10px; 
+
+}
